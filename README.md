@@ -1,4 +1,5 @@
-# 💎💬🇮🇹 Gemma Neogenesis - Improving Gemma 2 for a Specific Language on a Budget: Post-Training Recipe
+# 💎💬🇮🇹 Gemma Neogenesis
+**Improving Gemma 2 for a Specific Language on a Budget: Post-Training Recipe**
 
 Additional resources for Gemma Neogenesis, a [📓 Kaggle notebook for improving Gemma 2 for a specific language on a budget](ADD_LINK).
 The notebook participates to the Kaggle competition: [Google - Unlock Global Communication with Gemma](https://www.kaggle.com/competitions/gemma-language-tuning).
