@@ -10,7 +10,6 @@ While focused on Italian, the cost-effective methods demonstrated can inspire si
 
 ## 👣 Navigating this repository
 - [Qualitative Evaluation](./qualitative_evaluation.md): qualitative evaluation of the model, compared to gemma-2-2b-it on 10 varied prompts.
+- [Scale Translation](./scale_translation/README.md): code for scaling LLM-aided-translation.
 - [Images](./images/).
-- TODO:
-  - code for scaling LLM-aided-translation
   - prompts?
