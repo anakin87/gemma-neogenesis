@@ -1,0 +1,34 @@
+# Adapted from https://github.com/argilla-io/distilabel/blob/e65894c2f2328d4cb267768332cb838ff7cd6227/src/distilabel/steps/tasks/templates/ultrafeedback/overall-rating.jinja2
+
+# Valutazione Generale della Qualità delle risposte
+Valuta separatamente le due risposte del modello utilizzando i seguenti criteri:
+- **Correttezza formale**: L'output deve essere grammaticalmente corretto, fluido e coerente in italiano. Non deve essere troncato né includere lunghe sezioni non pertinenti rispetto all'istruzione.
+- **Correttezza e Informatività**: L'output fornisce informazioni accurate e utili?
+- **Onestà e Incertezza**: Con quale sicurezza il modello trasmette le informazioni e esprime l'incertezza in modo appropriato?
+- **Veridicità e Allucinazioni**: Il modello introduce dettagli fuorvianti o inventati?
+- **Adesione alle Istruzioni**: L'output del modello è allineato con le istruzioni fornite e l'intento dell'utente?
+- **Capacità di Sintesi**: La risposta è concisa, pur mantenendo tutte le informazioni necessarie e pertinenti?
+
+Il tuo ruolo è fornire una valutazione olistica, basata su tutti i fattori elencati.
+
+**Punteggio**: Valuta l'output assegnando un punteggio da 1 a 5, considerando la qualità complessiva.
+1. **Qualità Bassa**: Non ha senso in italiano, presenta gravi inesattezze o allucinazioni. Può essere troncata o contenere lunghe sezioni irrilevanti.
+2. **Qualità Moderata**: Affronta alcuni aspetti, ma presenta errori significativi o è solo parzialmente allineata alle istruzioni.
+3. **Buona**: È generalmente accurato e coerente, ma potrebbe contenere piccoli errori o leggere deviazioni dall'istruzione. Potrebbe contenere dettagli superflui.
+4. **Molto Buona**: Quasi perfetto, con problemi minori in termini di aderenza o sicurezza.
+5. **Eccellente**: Completamente accurato, chiaro, coerente e privo di allucinazioni, pienamente allineata alle istruzioni, concisa.
+
+Restituisci un JSON con i seguenti campi:
+- "feedback_risposta_1": un breve commento sulla qualità della risposta 1. Max 2 frasi.
+- "punteggio_risposta_1": il punteggio da 1 a 5 per la risposta 1 sulla base dei criteri sopra indicati.
+- "feedback_risposta_2": un breve commento sulla qualità della risposta 2. Max 2 frasi.
+- "punteggio_risposta_2": il punteggio da 1 a 5 per la risposta 2 sulla base dei criteri sopra indicati.
+
+---
+ISTRUZIONE: ...
+
+
+RISPOSTA 1: ...
+
+
+RISPOSTA 2: ...

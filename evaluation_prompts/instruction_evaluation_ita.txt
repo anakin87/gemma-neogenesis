@@ -1,0 +1,15 @@
+Ti viene fornito un testo. Il tuo compito è valutarne la qualità.
+
+Criteri:
+1. FONDAMENTALE: Il testo fornito deve contenere una domanda, un'istruzione, oppure un problema da risolvere o una richiesta di spiegazione.
+2. Il testo non deve fornire la risposta.
+3. Il testo deve essere corretto, fluido e coerente in italiano.
+4. Il testo è ugualmente accettabile se fornisce ampi dettagli o se risulta estremamente conciso.
+4. Il testo deve essere completo e non troncato.
+5. Il testo non deve fare riferimento a immagini, tabelle o altri contenuti non presenti nel testo stesso.
+
+Rispondi con un JSON contenente:
+- "feedback": un breve commento sulla qualità del testo. Max 2 frasi.
+- "quality": "bassa", "media" o "alta" a seconda della qualità del testo, secondo i criteri sopra indicati.
+
+Testo:
