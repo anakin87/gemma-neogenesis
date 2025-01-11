@@ -1,3 +1,5 @@
+# 🚧🚧🚧 WORK IN PROGRESS 🚧🚧🚧
+
 # 💎💬🇮🇹 Gemma Neogenesis
 **Improving Gemma 2 for a Specific Language on a Budget: Post-Training Recipe**
 
@@ -14,4 +16,3 @@ While focused on Italian, the cost-effective methods demonstrated can inspire si
 - [Scale Translation](./scale_translation/README.md): code for scaling LLM-aided-translation.
 - [Spectrum results](./spectrum_results): results of the Signal to Noise Ratio analysis done with Spectrum.
 - [Images](./images/).
-  - prompts?
