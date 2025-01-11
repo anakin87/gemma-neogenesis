@@ -7,7 +7,6 @@ import gc
 
 # CONFIG
 os.environ["HF_TOKEN"] = "..."  # specify your token
-DATASET_NAME = "anakin87/FineTome-single-turn-dedup"
 TRANSLATED_DATASET_NAME = "anakin87/FineTome-single-turn-dedup-ita"
 OUTPUT_FILE = "instructions_ita.json"
 

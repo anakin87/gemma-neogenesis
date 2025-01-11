@@ -1,4 +1,4 @@
-# Scale Translation Example
+# 🌐⚙️ Scale Translation Example
 
 The translation process described in the notebook is simple and effective for demonstration purposes. However, scaling this process to handle large datasets requires additional engineering efforts to parallelize tasks, manage rate limits, and minimize data loss.
 
