@@ -59,7 +59,7 @@ Curated collection of key resources and references used in the notebook.
 - [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval): An Automatic Evaluator for Instruction-following Language Models.
 - [Instruction-Following Evaluation for Large Language Models](https://arxiv.org/abs/2311.07911).
 
-# Other
+## Other
 - [Evaluating the Effectiveness of LLM-Evaluators (aka LLM-as-Judge)](https://eugeneyan.com/writing/llm-evaluators/): good long read by Eugene Yan.
 - [How to generate text: using different decoding methods for language generation with Transformers](https://huggingface.co/blog/how-to-generate): a good read by Patrick von Platen on decoding/sampling strategies.
 - [Small Language Models on a smartphone](https://www.linkedin.com/posts/stefano-fiorucci_llm-genai-edgecomputing-activity-7183365537618411520-PU2s/): LinkedIn post.
