@@ -2,6 +2,8 @@
 
 Curated collection of key resources and references used in the notebook.
 
+<!---References-->
+
 ## 💎💬🇮🇹 Gemma Neogenesis
 - [Kaggle notebook](ADD_LINK)
 - [Hugging Face collection](ADD_LINK): contains all datasets, models, and HF Space to try the model.
