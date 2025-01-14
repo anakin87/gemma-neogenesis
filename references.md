@@ -4,9 +4,9 @@ Curated collection of key resources and references used in the notebook.
 
 <!---References-->
 
-## 💎💬🇮🇹 Gemma Neogenesis
-- [Kaggle notebook](ADD_LINK)
-- [Hugging Face collection](ADD_LINK): contains all datasets, models, and HF Space to try the model.
+## 💎🌍🇮🇹 Gemma Neogenesis
+- [Kaggle notebook](https://www.kaggle.com/code/anakin87/post-training-gemma-for-italian-and-beyond)
+- [Hugging Face collection](https://huggingface.co/collections/anakin87/gemma-neogenesis-67824b7bf13ac9cfe091fe2e): contains all datasets, models, and HF Space to try the model.
 
 ## 🔧 Libraries
 - [HF TRL](https://huggingface.co/docs/trl/index): the great library used for SFT and DPO.
