@@ -4,6 +4,8 @@
 Additional resources for Gemma Neogenesis, a [📓 Kaggle notebook for improving Gemma 2 for a specific language on a budget](https://www.kaggle.com/code/anakin87/post-training-gemma-for-italian-and-beyond).
 The notebook participates to the Kaggle competition: [Google - Unlock Global Communication with Gemma](https://www.kaggle.com/competitions/gemma-language-tuning).
 
+<img src="./images/neogenesis.jpg" alt="Gemma Neogenesis" width="800"/>
+
 ## Notebook intro
 The notebook demonstrates a case study on improving Gemma 2 2B's performance in Italian through Post-Training, combining Supervised Fine Tuning and Preference Tuning. The process uses both existing datasets and synthetic data generated specifically for this competition.
 While focused on Italian, the cost-effective methods demonstrated can inspire similar fine-tuning approaches for other languages.
